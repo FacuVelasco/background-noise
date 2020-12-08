@@ -8,6 +8,7 @@ const sounds = [
   {
     id: 0,
     name: "fire",
+    display: "fire",
     src: "",
     isActive: false,
     volume: 50,
@@ -15,6 +16,7 @@ const sounds = [
   {
     id: 1,
     name: "water-flow",
+    display: "water flow",
     src: "",
     isActive: false,
     volume: 50,
@@ -22,6 +24,7 @@ const sounds = [
   {
     id: 2,
     name: "rain",
+    display: "rain",
     src: "",
     isActive: false,
     volume: 50,
@@ -29,6 +32,7 @@ const sounds = [
   {
     id: 3,
     name: "wind",
+    display: "wind",
     src: "",
     isActive: false,
     volume: 50,
@@ -36,6 +40,7 @@ const sounds = [
   {
     id: 4,
     name: "storm",
+    display: "storm",
     src: "",
     isActive: false,
     volume: 50,
@@ -43,6 +48,7 @@ const sounds = [
   {
     id: 5,
     name: "drop",
+    display: "water drop",
     src: "",
     isActive: false,
     volume: 50,
@@ -73,7 +79,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://cafeparatodos.ar"
           target="_blank"
           rel="noopener noreferrer"
         >
